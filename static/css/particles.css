@@ -1,0 +1,7 @@
+.page-header:before {
+    z-index: -1
+}
+
+.page-header:after {
+    z-index: -1
+}

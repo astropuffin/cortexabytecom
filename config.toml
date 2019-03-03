@@ -1,3 +1,21 @@
 baseurl = "http://cortexabyte.com/"
 languageCode = "en-us"
 title = "Cortexabyte"
+theme = "hugo-now-ui"
+ignoreFiles = [
+  "\\.Rmd$",
+  "_files$",
+  "_cache$",
+]
+
+[params]
+  tint = "none"
+  background = "/img/logo-placeholder.png"
+  custom_js = [
+    "particles.min.js",
+    "particles.js",
+  ]
+  custom_css = [
+    "css/particles.css"
+  ]
+
