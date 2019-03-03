@@ -1,0 +1,9 @@
+[submodule "themes/hugo-theme-air"]
+	path = themes/hugo-theme-air
+	url = git@github.com:astropuffin/hugo-theme-air.git
+[submodule "themes/aerial"]
+	path = themes/aerial
+	url = git@github.com:astropuffin/aerial.git
+[submodule "themes/hugo-now-ui"]
+	path = themes/hugo-now-ui
+	url = git@github.com:astropuffin/hugo-now-ui.git
