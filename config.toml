@@ -1,4 +1,4 @@
-baseurl = "http://cortexabyte.com/"
+baseurl = "https://cortexabyte.com/"
 languageCode = "en-us"
 title = "Cortexabyte"
 theme = "hugo-now-ui"
