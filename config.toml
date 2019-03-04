@@ -8,6 +8,39 @@ ignoreFiles = [
   "_cache$",
 ]
 
+[permalinks]
+    post = "/:year/:month/:day/:slug/"
+
+[[menu.main]]
+    name = "nav menu"
+    pre = "<i class='now-ui-icons ui-1_settings-gear-63'></i>"
+    url = "#"
+    weight = 4
+    identifier = "dropdown"
+[[menu.main]]
+    name = "DevLogs"
+    pre = "<i class='now-ui-icons ui-1_calendar-60'></i>"
+    url = "/devlog/"
+    weight = 2
+    parent = "dropdown"
+
+[[menu.footer]]
+    identifier = "twitter"
+    pre = "<i class='fa fa-twitter'></i>"
+    url = "https://twitter.com/cortexabyte"
+    weight = 1
+[[menu.footer]]
+    identifier = "github"
+    pre = "<i class='fa fa-github'></i>"
+    url = "https://github.com/astropuffin"
+    weight = 2
+[[menu.footer]]
+    identifier = "copyright"
+    name = "MIT"
+    pre = "<i class='fa fa-balance-scale'></i>"
+    url = "https://spdx.org/licenses/MIT"
+    weight = 3
+
 [params]
   tint = "none"
   background = "/img/logo-placeholder.png"
