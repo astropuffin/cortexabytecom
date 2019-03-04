@@ -16,6 +16,6 @@ ignoreFiles = [
     "particles.js",
   ]
   custom_css = [
-    "css/particles.css"
+    "css/custom.css"
   ]
 

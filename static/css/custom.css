@@ -1,7 +1,7 @@
 .page-header:before {
-    z-index: -1
+    display: none;
 }
 
 .page-header:after {
-    z-index: -1
+    display: none;
 }
