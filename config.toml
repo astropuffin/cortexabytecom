@@ -23,6 +23,12 @@ ignoreFiles = [
     url = "/devlog/"
     weight = 2
     parent = "dropdown"
+[[menu.main]]
+    name = "Moriarty's Machinations"
+    pre = "<i class='now-ui-icons ui-1_calendar-60'></i>"
+    url = "/moriartys-machinations/"
+    weight = 2
+    parent = "dropdown"
 
 [[menu.footer]]
     identifier = "twitter"
