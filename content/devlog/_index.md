@@ -1,3 +1,3 @@
 ---
-title: "The Misadventures of Astropuffin"
+title: "Misadventures in GameDev"
 ---

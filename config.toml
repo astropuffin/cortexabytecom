@@ -9,7 +9,7 @@ ignoreFiles = [
 ]
 
 [permalinks]
-    post = "/:year/:month/:day/:slug/"
+    devlog = "/:slug"
 
 [[menu.main]]
     name = "nav menu"
@@ -48,7 +48,7 @@ ignoreFiles = [
     weight = 3
 
 [params]
-  tint = "none"
+  tint = "black"
   background = "/img/logo-placeholder.png"
   custom_js = [
     "particles.min.js",

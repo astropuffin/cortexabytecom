@@ -1,7 +1,2 @@
-.page-header:before2 {
-    display: none;
-}
-
-.page-header:after2 {
-    display: none;
-}
+.card [data-background-color="black"] {
+  background-color: black; }
