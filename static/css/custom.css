@@ -1,7 +1,12 @@
-.page-header:before2 {
-    display: none;
+.card [data-background-color="black"] {
+  background-color: black; }
+
+.cortexabyte-logo {
+    max-height: 120px;
+    margin-bottom: 20px;
 }
 
-.page-header:after2 {
-    display: none;
+.cortexabyte-text-logo {
+    max-height: 100px;
+    margin-bottom: 20px;
 }
