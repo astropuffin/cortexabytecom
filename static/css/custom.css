@@ -1,2 +1,12 @@
 .card [data-background-color="black"] {
   background-color: black; }
+
+.cortexabyte-logo {
+    max-height: 120px;
+    margin-bottom: 20px;
+}
+
+.cortexabyte-text-logo {
+    max-height: 100px;
+    margin-bottom: 20px;
+}
