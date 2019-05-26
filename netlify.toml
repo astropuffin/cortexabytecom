@@ -1,5 +1,5 @@
 [build]
-  functions = "functions/"
+  functions = "functions/bin"
   command = "make build"
 [build.environment]
   GO_IMPORT_PATH = "github.com/astropuffin/cortexabytecom"
