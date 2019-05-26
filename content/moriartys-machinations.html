@@ -422,7 +422,7 @@ Your browser does not support the audio element.
   id="checkout-button-sku_F8VRgCRVuqoYOw"
   role="link"
 >
-  Checkout
+  Buy now!
 </button>
 
 <div id="error-message"></div>
@@ -442,8 +442,9 @@ Your browser does not support the audio element.
       // a successful payment.
       // Instead use one of the strategies described in
       // https://stripe.com/docs/payments/checkout/fulfillment
-      successUrl: 'https://cortexabyte.com/mm/success',
+      successUrl: 'https://cortexabyte.com/mm/purchased',
       cancelUrl: 'https://cortexabyte.com/mm/canceled',
+      billingAddressCollection: 'required',
     })
     .then(function (result) {
       if (result.error) {
