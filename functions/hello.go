@@ -8,7 +8,7 @@ import (
 func handler(request events.APIGatewayProxyRequest) (*events.APIGatewayProxyResponse, error) {
 	return &events.APIGatewayProxyResponse{
 		StatusCode: 200,
-		Body:       "Hello, World",
+		Body:       "This is a secret: STRIPE_API_KEY",
 	}, nil
 }
 
