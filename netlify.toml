@@ -1,5 +1,12 @@
 [build]
   functions = "functions/bin"
   command = "make build -e"
+
 [build.environment]
   GO_IMPORT_PATH = "github.com/astropuffin/cortexabytecom"
+  MM_SKU = "sku_F8VRgCRVuqoYOw"
+  STRIPE_PUBLIC_API_KEY = "pk_test_3L5GNZ5lEEJNakPcETm0UO9k"
+
+[context.production.environment]
+  MM_SKU = "sku_F8VOsH0enM1sDk"
+  STRIPE_PUBLIC_API_KEY = "pk_live_R365PMWpNFqjoCstn37sPa1H"
