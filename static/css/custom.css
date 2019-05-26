@@ -11,13 +11,14 @@
     margin-bottom: 20px;
 }
 
-div.video-responsive {
+.video-responsive {
     overflow:hidden;
     padding-bottom:56.25%;
     position:relative;
     height:0;
 }
-div.video-responsive iframe{
+
+.video-responsive iframe{
     left:0;
     top:0;
     height:100%;
