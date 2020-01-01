@@ -1,7 +1,7 @@
 baseurl = "https://www.cortexabyte.com/"
 languageCode = "en-us"
 title = "Cortexabyte"
-theme = "hugo-now-ui"
+theme = "hugo-now-ui" # https://themes.gohugo.io/hugo-now-ui/
 ignoreFiles = [
   "\\.Rmd$",
   "_files$",
