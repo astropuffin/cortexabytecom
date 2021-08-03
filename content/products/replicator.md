@@ -5,4 +5,4 @@ buy_url: https://example.com
 buy_text: replicatorgame.com
 image: /img/replicator.png
 ---
-Evolution game!
+Evolution game! Playable on both PC and Mobile.
