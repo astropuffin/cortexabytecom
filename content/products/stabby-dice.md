@@ -1,8 +1,8 @@
 ---
 title: "Stabby Dice"
-price: 26.00
-buy_url: https://example.com
+price: 21.48
+buy_url: https://www.thegamecrafter.com/games/stabby-dice-red-green
 buy_text: The Game Crafter
 image: /img/stabby-dice.png
 ---
-Random encounters with strategy!
+A game of dice and strategy.
