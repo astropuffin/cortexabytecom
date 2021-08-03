@@ -49,7 +49,7 @@ ignoreFiles = [
 
 [params]
   tint = "black"
-  background = "/img/icon-transparent_400x400.png"
+  # background = "/img/icon-transparent_400x400.png"
   custom_js = [
     "particles.min.js",
     "particles.js",
