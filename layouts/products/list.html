@@ -39,7 +39,7 @@
           <!-- Tab panes -->
           <div style="display: flex;">
             <div style="width: 50%;">
-              <img src="{{ .Params.image }}" class="rounded" height="100px">
+              <img src="{{ .Params.image  | relURL }}" class="rounded" height="100px">
             </div>
             <div style="flex-grow: 1;">
               <a>Price: ${{ .Params.Price }}</a><br>
